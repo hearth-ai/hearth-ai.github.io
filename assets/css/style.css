@@ -20,7 +20,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     line-height: 1.6;
     color: var(--dark-brown);
-    background-color: var(--background);
+    background-color: #F9F8F3;
 }
 
 /* Typography */
@@ -32,8 +32,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 3rem;
-    font-weight: 700;
+    font-family: 'Alibaba Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-size: 4.5rem;
+    font-weight: 800;
 }
 
 h2 {
@@ -58,8 +59,6 @@ p {
 
 /* Navigation */
 .navbar {
-    background-color: var(--white);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -80,21 +79,9 @@ p {
     width: auto;
 }
 
-.nav-menu {
+.nav-actions {
     display: flex;
-    list-style: none;
-    gap: 2rem;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: var(--dark-brown);
-    font-weight: 500;
-    transition: color 0.3s ease;
-}
-
-.nav-link:hover {
-    color: var(--primary-orange);
+    align-items: center;
 }
 
 /* Buttons */
@@ -135,26 +122,32 @@ p {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, var(--background) 0%, var(--light-gray) 100%);
-    padding: 6rem 0;
+    background: #F9F8F3;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 0 2rem;
 }
 
 .hero-content h1 {
-    margin-bottom: 1.5rem;
-    background: linear-gradient(135deg, var(--primary-orange), var(--light-orange));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    margin-bottom: 2rem;
+    color: var(--almost-black);
+    font-weight: 800;
 }
 
 .hero-content p {
-    font-size: 1.3rem;
-    margin-bottom: 2.5rem;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 1.4rem;
+    margin-bottom: 0;
     color: var(--dark-brown);
+    font-weight: 400;
+    line-height: 1.6;
 }
 
 .hero-actions {
@@ -167,7 +160,7 @@ p {
 /* About Section */
 .about {
     padding: 6rem 0;
-    background-color: var(--white);
+    background-color: #F9F8F3;
 }
 
 .about h2 {
@@ -357,13 +350,12 @@ footer {
         padding: 1rem 2rem;
     }
     
-    .nav-menu {
+    .nav-actions {
         margin-top: 1rem;
-        gap: 1rem;
     }
     
     h1 {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
     
     h2 {
@@ -371,7 +363,11 @@ footer {
     }
     
     .hero {
-        padding: 4rem 0;
+        height: 100vh;
+    }
+    
+    .hero-content {
+        padding: 0 1rem;
     }
     
     .hero-actions {

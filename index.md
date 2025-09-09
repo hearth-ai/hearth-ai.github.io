@@ -6,11 +6,8 @@ description: Your family's AI-powered executive assistant
 
 <div class="hero">
     <div class="hero-content">
-        <h1>Hearth AI</h1>
-        <p>Your family's AI-powered executive assistant.</p>
-        <div class="hero-actions">
-            <button id="waitlist-btn" class="btn-primary">Join the Waitlist</button>
-        </div>
+        <h1>Get in Sync</h1>
+        <p>Hearth is your family's AI-powered executive assistant.</p>
     </div>
 </div>
 
