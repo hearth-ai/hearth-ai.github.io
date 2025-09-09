@@ -6,11 +6,10 @@ description: Your family's AI-powered executive assistant
 
 <div class="hero">
     <div class="hero-content">
-        <h1>Something Amazing is Coming</h1>
-        <p>description description.</p>
+        <h1>Hearth AI</h1>
+        <p>Your family's AI-powered executive assistant.</p>
         <div class="hero-actions">
             <button id="waitlist-btn" class="btn-primary">Join the Waitlist</button>
-            <a href="/contact" class="btn-secondary">Get in Touch</a>
         </div>
     </div>
 </div>
