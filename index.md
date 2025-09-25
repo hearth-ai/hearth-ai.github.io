@@ -10,7 +10,7 @@ description: Your family's AI-powered executive assistant
     </div>
     <div class="hero-content">
         <h1>Your family's AI-powered personal assistant.</h1>
-        <p>One app for managing family scheduling, task management, communication, and more.</p>
+        <p>One app for family scheduling, task management, communication, and more.</p>
         <div class="hero-actions">
             <button id="waitlist-btn" class="btn-primary">Join the waitlist</button>
         </div>
