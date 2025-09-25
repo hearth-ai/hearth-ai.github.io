@@ -5,9 +5,15 @@ description: Your family's AI-powered executive assistant
 ---
 
 <div class="hero">
+    <div class="hero-background">
+        <img src="{{ '/assets/hearth_logo.png' | relative_url }}" alt="Hearth Logo" class="hero-logo-bg">
+    </div>
     <div class="hero-content">
-        <h1>Get in Sync</h1>
-        <p>Hearth is your family's AI-powered executive assistant.</p>
+        <h1>Your family's AI-powered personal assistant.</h1>
+        <p>Hearth is an iOS app that manages family scheduling, task management, communication, and more.</p>
+        <div class="hero-actions">
+            <button id="waitlist-btn" class="btn-primary">Join the waitlist</button>
+        </div>
     </div>
 </div>
 
