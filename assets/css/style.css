@@ -199,6 +199,14 @@ p {
     font-size: 2.5rem;
     font-weight: 400;
     color: var(--almost-black);
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--dark-brown);
     margin-bottom: 4rem;
 }
 

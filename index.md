@@ -20,6 +20,7 @@ description: Your family's AI-powered executive assistant
 <section class="about">
     <div class="container">
         <h2>The power of a personal assistant for every family.</h2>
+        <p>Hearth manages your family's information overload independently, so you can breathe easier.</p>
         <div class="features-grid">
             <div class="feature-item">
                 <div class="feature-number">01</div>
@@ -27,7 +28,7 @@ description: Your family's AI-powered executive assistant
             </div>
             <div class="feature-item">
                 <div class="feature-number">02</div>
-                <div class="feature-text">Clear Your Inbox</div>
+                <div class="feature-text">Clear Your Inbox and Unread Texts</div>
             </div>
             <div class="feature-item">
                 <div class="feature-number">03</div>
