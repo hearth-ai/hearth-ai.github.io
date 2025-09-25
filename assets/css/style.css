@@ -191,11 +191,20 @@ p {
 .about {
     padding: 6rem 0;
     background-color: var(--background);
+    text-align: center;
+}
+
+.about h2 {
+    font-family: 'Droid Serif', serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--almost-black);
+    margin-bottom: 4rem;
 }
 
 .features-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
@@ -235,7 +244,7 @@ p {
     font-weight: 400;
     color: var(--dark-brown);
     line-height: 1.4;
-    text-align: left;
+    text-align: center;
 }
 
 /* Contact Page */
@@ -421,6 +430,10 @@ footer {
     .features-grid {
         grid-template-columns: 1fr;
         gap: 3rem;
+    }
+    
+    .about h2 {
+        font-size: 2rem;
     }
     
     .feature-item:not(:last-child)::after {
