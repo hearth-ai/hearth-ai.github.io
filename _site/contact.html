@@ -32,7 +32,11 @@
 <section class="contact-content">
     <div class="container">
         <div class="waitlist-form">
-            <form id="waitlist-form">
+            <form id="waitlist-form" action="https://formsubmit.co/emmar.goodwill@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="New Waitlist Signup - Hearth" />
+                <input type="hidden" name="_next" value="https://hearth-ai.github.io/contact.html?success=true" />
+                <input type="hidden" name="_captcha" value="false" />
+                
                 <div class="form-group">
                     <label for="email">Email Address</label>
                     <input type="email" id="email" name="email" placeholder="Enter your email address" required="" />
@@ -58,6 +62,19 @@
                 
                 <button type="submit" class="btn-primary">Join the Waitlist</button>
             </form>
+            
+            <div id="success-message" style="display: none; margin-top: 2rem; padding: 1rem; background: #d4edda; color: #155724; border-radius: 8px; text-align: center;">
+                <strong>Thank you for joining our waitlist!</strong><br />
+                We'll be in touch soon with updates about Hearth.
+            </div>
+            
+            <script>
+            // Check if redirected from successful submission
+            if (window.location.search.includes('success=true')) {
+                document.getElementById('waitlist-form').style.display = 'none';
+                document.getElementById('success-message').style.display = 'block';
+            }
+            </script>
         
         </div>
     </div>
