@@ -255,6 +255,35 @@ p {
     text-align: center;
 }
 
+/* Screenshot Section */
+.screenshot-section {
+    padding: 6rem 0;
+    background-color: var(--background);
+    text-align: center;
+}
+
+.screenshot-section h2 {
+    font-family: 'Droid Serif', serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--almost-black);
+    margin-bottom: 3rem;
+}
+
+.screenshot-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.app-screenshot {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
 /* Contact Page */
 .contact-hero {
     background: linear-gradient(135deg, var(--primary-orange), var(--light-orange));
@@ -442,6 +471,14 @@ footer {
     
     .about h2 {
         font-size: 2rem;
+    }
+    
+    .screenshot-section h2 {
+        font-size: 2rem;
+    }
+    
+    .screenshot-container {
+        padding: 0 1rem;
     }
     
     .feature-item:not(:last-child)::after {

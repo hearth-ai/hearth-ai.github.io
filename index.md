@@ -37,3 +37,12 @@ description: Your family's AI-powered executive assistant
         </div>
     </div>
 </section>
+
+<section class="screenshot-section">
+    <div class="container">
+        <h2>You only have to say the word.</h2>
+        <div class="screenshot-container">
+            <img src="{{ '/assets/in_app_screenshot.png' | relative_url }}" alt="Hearth App Screenshot" class="app-screenshot">
+        </div>
+    </div>
+</section>
