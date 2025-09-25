@@ -19,25 +19,19 @@ description: Your family's AI-powered executive assistant
 
 <section class="about">
     <div class="container">
-        <h2>About Hearth</h2>
-        <div class="about-content">
-            <div class="about-text">
-                <p>Hearth is more than just a startup – we're a movement towards creating meaningful connections in our homes. Our mission is to revolutionize how we think about and interact with our living spaces.</p>
-                <p>We're currently in development, crafting innovative solutions that will transform the way you experience home. Stay tuned for updates as we build something truly special.</p>
+        <h2>The power of a personal assistant for every family.</h2>
+        <div class="features-grid">
+            <div class="feature-item">
+                <div class="feature-number">01</div>
+                <div class="feature-text">Streamline Your Family's Chaotic Schedule</div>
             </div>
-            <div class="about-features">
-                <div class="feature">
-                    <h3>Innovation</h3>
-                    <p>Cutting-edge technology meets timeless design</p>
-                </div>
-                <div class="feature">
-                    <h3>Community</h3>
-                    <p>Building connections that matter</p>
-                </div>
-                <div class="feature">
-                    <h3>Sustainability</h3>
-                    <p>Creating solutions for a better future</p>
-                </div>
+            <div class="feature-item">
+                <div class="feature-number">02</div>
+                <div class="feature-text">Clear Your Inbox</div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-number">03</div>
+                <div class="feature-text">Plan Family Adventures and Bonding</div>
             </div>
         </div>
     </div>
